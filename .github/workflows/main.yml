@@ -1,11 +1,11 @@
-on: 
+
+on:
   push:
-    branches:
-     - master
-name: production deploy
+    branches: [master]
+
 jobs:
-  web-deploy:
-    name: web-deploy
+  deploy:
+    name: 🚀 Deploy website every commit
     runs-on: ubuntu-latest
     steps:
     - name: Get the latest code
