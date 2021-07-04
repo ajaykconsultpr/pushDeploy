@@ -8,10 +8,10 @@ jobs:
     name: web-deploy
     runs-on: ubuntu-latest
     steps:
-      uses: actions/checkout@v2
-    
-    - name: deploy
-      uses: SamKirkland/FTP-Deploy-Action@4.1.0
+    - name: Get the latest code
+      uses: actions/checkout@v2.3.2
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
         server: ftp.trainingscalendar.com
         username: rahul@trainingscalendar.com
