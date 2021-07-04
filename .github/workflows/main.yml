@@ -9,7 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       uses: actions/checkout@v2
-    
     - name: web-deploy
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
