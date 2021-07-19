@@ -14,10 +14,10 @@ jobs:
       uses: sand4rt/ftp-deployer@v1.3
       with:
         sftp: true # optional
-        host: 45.84.204.218 # e.g. ftp.host.com or sftp.host.com (without ftp:// or ftps://)
-        port: 65002 # optional, default is: 21
-        username: u531993217 # FTP username
-        password: HGV69vglraqm8&+ # FTP password
+        host: consultprdevsites-18.com # e.g. ftp.host.com or sftp.host.com (without ftp:// or ftps://)
+        port: 21 # optional, default is: 21
+        username: rahulm@consultprdevsites-18.com # FTP username
+        password: 8cjagm1)oX$t # FTP password
         #remote_folder: ${{ secrets.FTP_REMOTE_FOLDER }} # optional, remote path of your FTP server
         #local_folder: dist # optional, local path, default is: dist
         #cleanup: false # optional, remove existing files inside FTP remote folder
