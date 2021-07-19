@@ -13,7 +13,7 @@ jobs:
     - name: FTP Deployer
       uses: sand4rt/ftp-deployer@v1.3
       with:
-        sftp: true # optional
+        #sftp: true # optional
         host: consultprdevsites-18.com # e.g. ftp.host.com or sftp.host.com (without ftp:// or ftps://)
         port: 21 # optional, default is: 21
         username: rahulm@consultprdevsites-18.com # FTP username
